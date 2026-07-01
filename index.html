@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Filipe Pereira - Software Engineering Student and Social Media & Digital Content Specialist portfolio." />
+  <title>Filipe Pereira | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top" aria-label="Filipe Pereira homepage">FP</a>
+
+      <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-content">
+        <div class="eyebrow">Portfolio</div>
+        <h1>Filipe Pereira</h1>
+        <p class="subtitle">Software Engineering Student | Social Media & Digital Content Specialist</p>
+        <p class="hero-text">
+          I combine software engineering, digital content and sports media experience to build technical projects,
+          create engaging content and solve problems with a practical, user-focused mindset.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="https://github.com/filipe77p" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/filipe-jose-pereira" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-secondary" href="mailto:filipepereirascp@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Profile summary">
+        <div class="avatar">FP</div>
+        <div>
+          <h2>Open to Opportunities</h2>
+          <p>Software Engineering · QA · Localization QA · Digital Content · Sports Media</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span>About</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="content-card">
+        <p>
+          I am a Software Engineering student with hands-on experience in academic software projects,
+          Java development, computer networks, UML documentation and digital content creation.
+        </p>
+        <p>
+          My background combines technical work with real experience in social media and content writing
+          for sports and esports brands. This gives me a strong mix of problem-solving, communication,
+          attention to detail and digital creativity.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <span>Skills</span>
+        <h2>Technical & Creative Skills</h2>
+      </div>
+
+      <div class="skills-grid" aria-label="Skills list">
+        <span>Java</span>
+        <span>Git</span>
+        <span>PostgreSQL</span>
+        <span>PL/SQL</span>
+        <span>HTML/CSS</span>
+        <span>UML</span>
+        <span>PlantUML</span>
+        <span>Visual Paradigm</span>
+        <span>Domain-Driven Design</span>
+        <span>EAPLI Principles</span>
+        <span>Requirements Engineering</span>
+        <span>Documentation</span>
+        <span>QA Mindset</span>
+        <span>SCRUM</span>
+        <span>Test-Driven Development</span>
+        <span>C</span>
+        <span>Assembly</span>
+        <span>Arduino</span>
+        <span>Oracle LiveSQL</span>
+        <span>Social Media</span>
+        <span>Content Writing</span>
+        <span>Digital Marketing</span>
+        <span>Sports Media</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <span>Projects</span>
+        <h2>Featured Projects</h2>
+        <p>Two academic projects focused on software engineering, modelling, systems integration and technical documentation.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon">✈️</span>
+            <div>
+              <h3>AISafe – Airspace Safety and Flight Operations System</h3>
+              <p class="project-type">Academic software engineering project</p>
+            </div>
+          </div>
+
+          <p class="project-description">
+            AISafe is designed to support the safe planning, validation and simulation of flight operations within
+            controlled airspaces. The system models the aviation domain in a structured way, ensuring that flight
+            operations are valid, safe and aligned with real-world aviation constraints.
+          </p>
+
+          <div class="project-block">
+            <h4>Technologies</h4>
+            <p>Java · Domain-Driven Design · EAPLI Principles · UML · PlantUML · Visual Paradigm · Markdown · Git</p>
+          </div>
+
+          <div class="project-block">
+            <h4>Technical Focus</h4>
+            <ul>
+              <li>Aircraft and fleet management</li>
+              <li>Flight routes, flights and flight plans</li>
+              <li>Air control areas, airports and weather scope</li>
+              <li>Flight plan validation and airspace simulation</li>
+              <li>Operational decision support</li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Domain-driven system focused on aviation safety and operational correctness</li>
+              <li>Main chain: FlightRoute → Flight → FlightPlan → Validation / Simulation</li>
+              <li>Strong aggregate boundaries and business invariants</li>
+              <li>FlightPlan modelled as an entity inside Flight, not as an aggregate root</li>
+              <li>Designed to support future changes without major redesign</li>
+            </ul>
+          </div>
+
+          <a class="btn btn-primary project-btn" href="https://github.com/filipe77p/AISafe-Airspace-Safety-and-Flight-Operations-System-project-showcase" target="_blank" rel="noopener">View GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-icon">🚂</span>
+            <div>
+              <h3>Logistics On Rails – Railway Logistics System</h3>
+              <p class="project-type">Academic integrative project</p>
+            </div>
+          </div>
+
+          <p class="project-description">
+            Logistics On Rails is a proof-of-concept software solution for logistics operators in railway infrastructure.
+            The system supports railway infrastructure management, rolling stock, freight operations, warehouse management,
+            routing, scheduling and station traffic security.
+          </p>
+
+          <div class="project-block">
+            <h4>Technologies</h4>
+            <p>Java · PL/SQL · C · Assembly · Arduino · Oracle LiveSQL · UML · PlantUML · Visual Paradigm · Git</p>
+          </div>
+
+          <div class="project-block">
+            <h4>Technical Focus</h4>
+            <ul>
+              <li>Railway infrastructure management</li>
+              <li>Warehouse management and freight dispatching</li>
+              <li>Train scheduling and route planning</li>
+              <li>Hardware and sensor integration</li>
+              <li>Spatial indexing and railway network optimization</li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <h4>Key Highlights</h4>
+            <ul>
+              <li>Multi-language project combining Java, PL/SQL, C, Assembly and Arduino</li>
+              <li>Modular architecture with database, business logic, station management and hardware layers</li>
+              <li>Warehouse operations using FEFO/FIFO logic</li>
+              <li>Spatial algorithms for station search, proximity search and network analysis</li>
+              <li>Developed using SCRUM, iterative development and Test-Driven Development principles</li>
+            </ul>
+          </div>
+
+          <a class="btn btn-primary project-btn" href="https://github.com/Departamento-de-Engenharia-Informatica/sem3-pi-25-26-g094-repo" target="_blank" rel="noopener">View GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <span>Experience</span>
+        <h2>Professional Experience</h2>
+      </div>
+
+      <div class="experience-grid">
+        <article class="experience-card">
+          <h3>NBA Portugal</h3>
+          <p class="role">Social Media Manager & Content Writer</p>
+          <p>
+            I create NBA news content, articles, social media posts and digital coverage across platforms including
+            Instagram, X, TikTok, Facebook and website.
+          </p>
+          <ul>
+            <li>NBA news and article writing</li>
+            <li>Social media content planning</li>
+            <li>Sports storytelling</li>
+            <li>Community engagement</li>
+            <li>Digital growth and audience retention</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <h3>MTJAG / Brandon Smith Esports</h3>
+          <p class="role">Social Media Marketing Specialist & Account Manager</p>
+          <p>
+            I work on content ideas, captions, campaigns, social media planning and community engagement for esports,
+            football and digital entertainment content.
+          </p>
+          <ul>
+            <li>Content ideation</li>
+            <li>Social media campaigns</li>
+            <li>Caption writing</li>
+            <li>Community-focused content</li>
+            <li>Sports and esports digital media</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <div>
+          <span class="contact-label">Contact</span>
+          <h2>Let’s Connect</h2>
+          <p>
+            I am open to opportunities in software engineering, QA, localization QA, digital content,
+            sports media and social media roles.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:filipepereirascp@gmail.com">Contact Me</a>
+          <a class="btn btn-secondary" href="https://github.com/filipe77p" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/filipe-jose-pereira" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Filipe Pereira. Portfolio built for job applications.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
